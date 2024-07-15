@@ -1,0 +1,212 @@
+<!doctype html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css"  rel="stylesheet" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="forme.css">
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
+  <link href="styles.css" rel="stylesheet">
+  <script src="file.js"></script>
+
+</head>
+
+    <body class="bg-gray-100">
+        <!-- NAVBAR SECTION -->
+        
+<nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600 shadow-md">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+  <a href=""  class="flex items-center space-x-3 rtl:space-x-reverse">
+      <span id="logo" class="self-center text-2xl font-extrabold whitespace-nowrap dark:text-white">Portfolio<i>.</i></span>
+  </a>
+  <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+    <a href="IMAGES/curriculum.pdf" download="IMAGES/curriculum.pdf.pdf">
+      <button class="hover:bg-orange-700 text-white font-bold py-2 px-4 rounded flex items-center download-button">
+        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+        </svg>
+        Télécharger CV
+      </button>
+    </a>  
+    <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+    </button>
+  </div>
+  <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+    <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+      <li>
+        <a href="#accueil" class="block py-2 px-3 font-extrabold rounded md:bg-transparent  md:p-0" aria-current="page">ACCUEIL</a>
+      </li>
+      <li>
+        <a href="#competences" class="block py-2 px-3 font-extrabold rounded md:bg-transparent  md:p-0 md:dark:hover:bg-transparent dark:border-gray-700">COMPETENCES</a>
+      </li>
+      <li>
+        <a href="#projets" class="block py-2 px-3 font-extrabold rounded md:bg-transparent  md:p-0 md:dark:hover:bg-transparent dark:border-gray-700">PROJETS</a>
+      </li>
+      <li>
+        <a href="#contact" class="block py-2 px-3 font-extrabold rounded md:bg-transparent  md:p-0 md:dark:hover:bg-transparent dark:border-gray-700">CONTACT</a>
+      </li>
+    </ul>
+  </div>
+  </div>
+</nav>
+<!-- FIN BAR DE NAVIGATION -->
+
+
+<!-- SECTION HERO  -->
+<section id="accueil" class=" bg-cover bg-center hero" style="background-image: url('https://e0.pxfuel.com/wallpapers/846/344/desktop-wallpaper-portfolio.jpg')">
+  <div class="container mx-auto p-4 pt-6 md:p-6 lg:p-12 items-center">
+    <h1 class="text-3xl md:text-3xl lg:text-3xl font-bold text-white mb-4">
+      <span>Bonjour, je suis <i>Software Developer</i></span>
+    </h1>
+    <p class="text-lg md:text-xl lg:text-2xl text-white mb-8">
+      Développeur web passionné et créatif, spécialisé dans la création <br> de sites web modernes et responsives.
+    </p>
+  </div>
+</section>
+<!-- SECTION HERO -->
+
+
+<!-- SECTION MES COMPETENCES -->
+<section class=" py-12 competences" id="competences">
+  <div class="container mx-auto p-4 ">
+    <h2 class="text-2xl uppercase  font-extrabold mb-4 text-center">Compétences</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 flex-wrap justify-cente items-center">
+      <div id="item-container"  class="bg-white p-4 rounded shadow text-center">
+        <i class="bx bx-code-alt text-center mx-auto"></i>
+        <ul class="list-none mb-0 font-extrabold">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+          <li>React</li>
+        </ul>
+      </div>
+      <div id="item-container"  class="bg-white p-4 rounded shadow text-center">
+        <i class='bx bxl-postgresql' ></i>
+        <ul class="list-none mb-0 font-extrabold">
+          <li>MySQL</li>
+          <li>PostgreSQL</li>
+          <li>MongoDB</li>
+          <li>GraphQL</li>
+        </ul>
+      </div>
+      <div id="item-container"  class="bg-white p-4 rounded shadow text-center">
+        <i class='bx bxl-github'></i>        
+        <ul class="list-none mb-0 font-extrabold">
+          <li>Git</li>
+          <li>Agile</li>
+          <li>Scrum</li>
+          <li>TDD</li>
+        </ul>
+      </div>
+      <div id="item-container"  class="bg-white p-4 rounded shadow text-center">
+        <i class='bx bxs-graduation'></i>        
+        <ul class="list-none mb-0 font-extrabold">
+          <li>Java</li>
+          <li>Python</li>
+          <li>C++</li>
+          <li>Ruby</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Project list container -->
+<h4 class="text-2xl uppercase  font-extrabold mt-12 text-center">MES PROJETS</h4>
+
+  <section id="projets" class=" px-6 py-10 md:py-20 md:px-10 mx-16 mt-4 bg-neutral-900/30">
+
+      <div class=" mx-10 max-w-7xl z-10 grid grid-cols-1 pt-14 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+          <div class="rounded-md shadow text-center bg-white">
+            <img class=""src="IMAGES/WEB.jfif" alt="Sunset in the mountains">
+              <h3 class="mt-6 text-black font-extrabold">DEVELOPPEMENT WEB</h3>
+              <p class="my-4 mb-0 font-normal leading-relaxed tracking-wide text-black">
+                "Création d'une plateforme interactive pour la gestion efficace des rendez-vous médicaux,
+                 intégrant une interface conviviale et des fonctionnalités de notification en temps réel."
+              </p>
+          </div>
+
+
+          <div class="rounded-md shadow text-center bg-white">
+            <img class=""src="IMAGES/téléchargement.png" alt="Sunset in the mountains">
+
+              <h3 class="mt-6 text-black font-extrabold">DEVELOPPEMENT MOBILE </h3>
+              <p class="my-4 mb-0 font-normal leading-relaxed tracking-wide text-black">"Développement d'une application mobile de fitness
+                 personnalisée, offrant des programmes d'entraînement adaptatifs, 
+                des conseils nutritionnels et un suivi de la progression."
+              </p>
+          </div>
+
+
+          <div class="rounded-md shadow text-center bg-white">
+            <img class=""src="IMAGES/téléchargement.jfif" alt="Sunset in the mountains">
+              <h3 class="mt-6 text-black font-extrabold">DESIGN GRAPHIQUE</h3>
+              <p class="my-4 mb-0 font-normal leading-relaxed tracking-wide text-black">
+                "Conception d'une identité visuelle moderne et distinctive pour une marque de café artisanal, incluant logo, 
+                emballages et supports marketing harmonisés."
+              </p>
+          </div>
+      </div>
+  </section>
+  <!-- FIN PROJET LIST CONTAINER -->
+
+
+
+<!-- FORM CONTACT -->
+ <!-- Section Contact -->
+ <h4 class="text-2xl uppercase  font-extrabold mt-12 text-center">ME CONTACTER</h4>
+<section class="py-20 mt-3 mb-8">
+  <div id="contact" class="container mx-auto p-12">
+    <form class="flex flex-wrap -mx-4">
+      <div class="w-full md:w-1/2 xl:w-1/3 px-4 mb-4">
+        <label class="block mb-2 font-extrabold uppercase" for="name">Nom</label>
+        <input class="w-full p-2 pl-10 text-sm text-black rounded " id="name" type="text" placeholder="Votre nom">
+      </div>
+      <div class="w-full md:w-1/2 xl:w-1/3 px-4 mb-4">
+        <label class="block mb-2 font-extrabold uppercase" for="email">Adresse e-mail</label>
+        <input class="w-full pl-10 p-2 text-sm text-black rounded "  id="email" type="email" placeholder="Votre adresse e-mail">
+      </div>
+      <div class="w-full md:w-1/2 xl:w-1/3 px-4 mb-4">
+        <label class="block mb-2 font-extrabold uppercase" for="message">Message</label>
+        <textarea class="w-full pl-10 text-sm text-black rounded " id="message" placeholder="Votre message"></textarea>
+      </div>
+      <div class="w-full px-4 mb-4">
+        <button class= "hover:bg-orange-700 text-white font-bold py-2 px-4 rounded w-full">ME CONTACTER</button>
+      </div>
+    </form>
+  </div>
+</section>
+<!-- FIN SECTION CONTACT -->
+
+
+<!-- SECTION FOOTER -->
+<footer id="footer" class="px-4 py-6 bg-black md:flex md:items-center md:justify-between">
+  <span class="text-sm text-white sm:text-center">© 2024 <a href="https://flowbite.com/">Portfolio™</a>. All Rights Reserved.
+  </span>
+  <div class="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
+      <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+        <i class='bx bxl-facebook-circle'></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+          <i class='bx bxl-linkedin-square'></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+          <i class='bx bxl-youtube'></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+          <i class='bx bxl-instagram-alt'></i>
+        </a>
+  </div>
+</footer>
+<!-- FIN SECTION FOOTER -->
+ 
+    </body>
+
+</html>

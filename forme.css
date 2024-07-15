@@ -1,0 +1,149 @@
+#logo{
+  color: #1F6565;
+}
+#logo i{
+  color: #E09A4E;
+}
+nav ul li a {
+    color: #1F6565; /* Changement de couleur des liens */
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+    }
+  
+  nav ul li a:hover {
+    color: #E09A4E; /* Couleur de survol */
+  }
+
+  nav ul li a:hover {
+    transform: scale(1.1);
+  }
+  
+  @keyframes fade-in {
+    to {
+      opacity: 1; 
+    }
+  }
+  .download-button{
+    background-color: #1F6565;
+    transition: transform 0.3s ease-in-out;
+  }
+  .download-button:hover{
+    background-color: #E09A4E;
+  }
+  
+
+  /* SECTION HERO */
+  .hero{
+    height: 90vh;
+    padding-top: 6rem;
+    text-align: center;
+  }
+  h1 span i{
+    color: #E09A4E;
+  }
+ h1 {
+    animation: fade-in 2s ease-in-out infinite;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  } 
+  .hero .container {
+    padding-top: 10rem;
+  }
+
+
+  
+  /* COMPETENCES */
+  .competences{
+    margin: 0 15%;
+  }
+  .competences .container h2{
+    color: #1F6565;
+  }
+  .bx{
+    text-align: center;
+    color: #1F6565;
+    font-size: 13px;
+  }
+  #item-container{
+    border-bottom: 3px solid #1F6565;
+    /* border-right: 3px solid #1F6565; */
+  }
+  #item-container i{
+    font-size: 2rem;
+    color: #E09A4E;
+  }
+  #item-container {
+    box-sizing: border-box;
+    box-shadow: 1px 2px 3px gray;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  #item-container:hover {
+    transform: scale(1.1);
+    border-top: 3px solid #1F6565;
+  }
+
+  /* SECTION PROJET */
+  h4{
+    color: #1F6565;
+    margin-top: 4rem;
+  }
+ #projets img{
+  width: 100%;
+  height: 150px;
+ }
+
+  /* CONTACT FORM */
+  #contact{
+    max-width: 70%;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 3px gray;
+    background-color: white;
+    padding:2rem 1rem 1rem 1rem;
+    /* margin-bottom: 1rem; */
+  }
+  #contact label{
+    color: #1F6565;
+  }
+  #contact input{
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 3px #1F6565;
+  }
+  #contact textarea{
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 3px #1F6565;
+  }
+  #contact button{
+    background-color: #1F6565;
+    color: white;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 3px #1F6565;
+    /* width: 100%; */
+    padding: 0.4rem;
+
+  }
+  /* SECTION FOOOTER */
+  #footer{
+    background-color: #1F6565;
+    color: white;
+    padding: 1rem 3rem;
+  }
+  #footer i{
+    color: white;
+    font-size: 20px;
+  }
+
+
+  
